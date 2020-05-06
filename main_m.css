@@ -41,8 +41,11 @@ li {
     margin-right: 25px;
 }
 a {
-    color: white;
+    color: gray;
     text-decoration: none;
+}
+.main_m a:visited {
+  color: white;
 }
 .menu a:hover {
     color: slateblue;

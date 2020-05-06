@@ -41,8 +41,11 @@ li {
     margin-right: 25px;
 }
 a {
-    color: white;
+    color: gray;
     text-decoration: none;
+}
+.contact a:visited {
+  color: white;
 }
 .menu a:hover {
     color: slateblue;
@@ -53,6 +56,7 @@ a {
   width: 100%;
   margin: auto;
   clear: both;
+  border-radius:
 }
 #content {
   width: 750px;
@@ -62,15 +66,25 @@ a {
 }
 #bigname {
   font-size: 50px;
+  font-family: 'Merriweather', serif;
 }
 #smallname {
   margin-top: 50px;
-  font-size: 20px;
+  font-size: 30px;
   padding-left: 25px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Caveat', cursive;
+  font-family: 'Comic Neue', cursive;
 }
 #contact {
   margin-top: 30px;
   padding-left: 25px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Caveat', cursive;
+  font-family: 'Comic Neue', cursive;
+  font-size: 20px;
 }
 #button {
   margin-top: 50px;

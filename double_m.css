@@ -41,8 +41,11 @@ li {
     margin-right: 25px;
 }
 a {
-    color: white;
+    color: gray;
     text-decoration: none;
+}
+.double_m a:visited {
+  color: white;
 }
 .menu a:hover {
     color: slateblue;
@@ -104,6 +107,9 @@ a {
 }
 .img2:hover {
     opacity: 0.5;
+}
+.img2:active {
+  color: white;
 }
 
 /*middle*/

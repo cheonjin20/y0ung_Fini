@@ -171,6 +171,9 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     background: rgba(0, 0, 0, 0.8);
 }
 /**/
+h3 {
+  font-family: 'Roboto Mono', monospace;
+}
 
 #slider {
   margin-top: 100px;
